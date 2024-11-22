@@ -1,3 +1,4 @@
+import Blogs from "../../Components/Home/Blogs";
 import NewsLetter from "../../Components/Home/NewsLetter";
 import Projects from "../../Components/Home/Projects";
 import Section1 from "../../Components/Home/Section1";
@@ -21,6 +22,7 @@ const Home = () => {
             <Projects></Projects>
             <Testimonials></Testimonials>
             <NewsLetter></NewsLetter>
+            <Blogs></Blogs>
         </div>
     );
 };
