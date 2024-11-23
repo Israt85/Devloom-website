@@ -1,9 +1,16 @@
+import '../Home/sidetab.css'
 const Section2 = () => {
     return (
         <div className='flex items-center gap-20'>
-            <div className='w-[40px] bg-[#FAD007] h-[160px]'>
+           <div
+  className="relative side-tab w-[40px] h-[160px] bg-[#FAD007] text-white font-bold flex items-center justify-center"
+ 
+>
+  <span>ABOUTUS</span>
+</div>
 
-            </div>
+
+
            <div className="flex">
            <div className='w-[400px] h-[200px]'>
            <p className='text-8xl font-audiowide text-[#262F68]'> ABout us</p>

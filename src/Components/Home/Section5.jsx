@@ -1,10 +1,20 @@
-
+import '../Home/sidetab.css'
 
 const Section5 = () => {
     return (
         <div className="w-[1300px] py-10 my-10 text-white bg-[#262F68] h-[1000px]">
+            <div className='flex gap-72'>
+            <div
+  className="relative side-tab w-[40px] h-[160px] bg-[#FAD007] text-white font-bold flex items-center justify-center"
+ 
+>
+  <span>PROCEDURE</span>
+</div>
+            <div>
             <p className="text-center text-5xl w-[500px] mx-auto font-audiowide">How Our Design Process <span className="bg-[#FCCF12] text-black px-4">Works </span> </p>
             <p className="w-[600px] mx-auto my-4 text-center">Devloom solution follows a collaborative and iterative approach to design, with a focus on understanding and meeting the unique needs of each client.</p>
+            </div>
+            </div>
 
             <div className="flex flex-col mt-20 justify-center items-center">
                 <div className="w-[800px] flex rounded-3xl justify-evenly items-center px-4 bg-white h-[200px]">

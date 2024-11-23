@@ -2,7 +2,7 @@
 
 const Testimonials = () => {
     return (
-        <div className="w-[1300px] my-20">
+        <div className="w-[1300px] my-32">
             <h2 className="text-5xl font-audiowide uppercase text-center text-[#262F68]">Testimonials</h2>
             <p className="text-center my-4">See what our client has to say about our projects</p>
             <div className="flex gap-4 overflow-auto flex-row">

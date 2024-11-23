@@ -3,9 +3,12 @@
 const Blogs = () => {
     return (
         <div className="flex my-20 gap-20">
-           <div className='w-[40px] bg-[#FAD007] h-[160px]'>
-
-</div>   
+           <div
+  className="relative side-tab w-[40px] h-[160px] bg-[#FAD007] text-white font-bold flex items-center justify-center"
+ 
+>
+  <span>BLOGS</span>
+</div>
 <div className="my-6">
     <h2 className="w-20 py-2 text-center rounded-full text-white bg-[#262F68]">BLOG</h2>
     <h2 className="text-3xl font-audiowide mb-6">News & Updates</h2>

@@ -9,6 +9,10 @@ export default {
       fontFamily: {
         audiowide: ['"Audiowide"', 'sans-serif',],
         Poppins: ['Poppins', 'sans-serif',],
+        Arapey: ['Arapey', 'sans-serif',],
+      },
+      clipPath: {
+        customTab: "polygon(0 0, 100% 0, 85% 100%, 0% 100%)",
       },
     },
   },

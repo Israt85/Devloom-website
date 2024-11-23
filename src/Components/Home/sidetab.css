@@ -1,0 +1,29 @@
+.side-tab {
+    width: 50px;
+    height: 200px;
+    background-color: #FAD007;
+    clip-path: polygon(
+      0% 0%,          /* Top-left */
+      100% 16%,         /* Before top-right curve */
+      100% 16%,         /* Top-right curve start */
+      100% 0%,        /* Bottom-right curve end */
+      90% 89%,         /* Before bottom-right curve */
+      0% 100%,         /* Bottom-left */
+      6% 100%          /* Bottom-left curve */
+    );
+    border-radius: 0 180px 180px 0;
+    text-align: center;
+  }
+  
+  .side-tab span {
+   
+    text-orientation: upleft;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    transform: rotate(-90deg);  
+    transform-origin: center; 
+  }
+  

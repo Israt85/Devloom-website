@@ -1,8 +1,12 @@
+import '../Home/sidetab.css'
 const Services = () => {
     return (
         <div className="flex gap-20">
-           <div className='w-[40px] rounded-tr-xl bg-[#FAD007] h-[160px]'>
-
+            <div
+  className="relative side-tab w-[40px] h-[180px] bg-[#FAD007] text-white font-bold flex items-center justify-center"
+ 
+>
+  <span>WHATWEDO</span>
 </div>
             <div className="w-[450px] h-[500px]">
 <p className="font-audiowide text-5xl">Our Services</p>
