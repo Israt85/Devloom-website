@@ -5,9 +5,37 @@ const HomeBanner = () => {
       <div>
         <h2 className='text-7xl text-center mx-6 w-[1200px] uppercase my-20 text-[#262F68] font-medium font-audiowide'>website that transform 
         your vision</h2>
-          <div className='w-[1200px] border flex justify-center items-end'>
-            {/* div 1 */}
-         {/* <div className='w-[150px] absolute ml-6'>
+          <div className='w-[1300px] flex justify-center items-end'>
+            <div className='w-[150px]'>
+
+            </div>
+           
+           <div className=" h-[500px]">
+           <svg width="0" height="0">
+        <defs>
+          <clipPath id="custom-shape">
+          <path xmlns="http://www.w3.org/2000/svg" d="M0.5 15C0.5 6.71572 7.21573 0 15.5 0H968C983.464 0 996 12.536 996 28V304.394C996 331.456 974.062 353.394 947 353.394H633.287C606.225 353.394 584.287 375.332 584.287 402.394L584.287 427C584.287 440.807 573.094 452 559.287 452H184.055C156.993 452 135.055 430.062 135.055 403V138.413C135.055 111.351 113.117 89.413 86.0548 89.413H26.5C12.1406 89.413 0.5 77.7724 0.5 63.413V15Z" fill="#D9D9D9"/>
+          
+       
+            <rect x="0" y="0" width="100" height="" rx="20" />
+          </clipPath>
+        </defs>
+      </svg>
+<img    style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}
+       className="w-full h-auto object-contain rounded-3xl" src="https://s3-alpha-sig.figma.com/img/7247/926e/23e3424ae4c9f5d0dba367e2b6379a8a?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nuRfDJoswVPIHbVbYQ5El4-kCKPCDVDacXLSHIeietig-EUIJGnySWUH5rdj3XERWWCW~4eoyldjYJbcqajMdzTQhPCQwp7UEBUTTnpXbQdP4Ik5a4qRaWKIhKlAO76zIWCUXnZZKZoGqo2NsBKkENReJTghjSHL20lsAIcc9qQMc2~ondGpXdcqq7UXlaDXwLtNpSuZx-ztD5d2ZhRRkomiuUD5UyV75Mz0VVY86VFIp2WIsiB4L11MK-PR-Bb1Qhio43vdRYEULebXewUwP8hYKYrpr8yn8KDo2TRIcaXM0YHi8fg4ATgHgvBVAPGhkJJZ43Kf2nZ24u4onwyHgQ__" alt="" />
+       
+           </div>
+
+        
+           
+          
+          
+
+        </div>
+        <div className='w-full border'>
+
+      {/* first part */}
+      <div className='w-60 left-0 -mt-96 absolute'>
            <div className='flex'>
            <img className='w-[106px] h-[103px] rounded-full' src="https://s3-alpha-sig.figma.com/img/2053/102e/c8db8239de2891ae8c2a6f68d9098bd4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AyX4Y-N~02pBwqKk7jCFdAkgU83NgqcduPQ26lXnQ~5Ikpe8G~2g1hpH2Xi7~6mL1jGaZPKjC~zB3RGOEfeLzQXyHv0AL85XZEmML3xc069zer~XMRXdjfu86MbYHG5aMhRa4yhyGtM1rLxvzm6eWQd0dcL11pL-YcZCVQf~Fj2nullu11OnyKsYhqAX3EhOnw9RhgNPSnr0eDq8hfl6fkeU8WMfzfetRzucvTce2VZuBhgUzztfX-pcwsj7pQ5M1v3UMkk2e7n2uKX7~YHylR3CCxG9IW3cS59gCz7rGB8b9p9JzB7jGKhxBdDl6bpftmsn29HoQ6Aq5bjcNhjNFw__" alt="" />
             <div>
@@ -49,12 +77,12 @@ const HomeBanner = () => {
            </div>
 
             <div className='flex gap-2 items-center'>
-            <h1 className='font-audiowide text-lg'>AboutUs</h1>
+            <h1 className='font-audiowide px-2 text-lg'>AboutUs</h1>
             <div className='h-1 w-32 bg-black'>
 
             </div>
             </div>
-            <p className='font-Poppins text-xs w-68 relative text-right'>We are a creative agency that offer web and app solutions. We are a creative agency that            offer web and app solutions.We are a creative agencyy  that offer web and 
+            <p className='font-Poppins text-xs w-64 px-2 relative text-right'>We are a creative agency that offer web and app solutions. We are a creative agency that            offer web and app solutions.We are a creative agencyy  that offer web and 
 app solutions forr you at the pocket    
 friendly rates.</p>
 <div className='w-10 h-10 absolute z-10 -mt-16 rounded-2xl flex justify-center items-center bg-[#262F68]'>
@@ -63,29 +91,21 @@ friendly rates.</p>
 </svg>
 
 </div>
-           </div>    */}
+           </div>   
 
-           {/* div 2 */}
-           <div className="">
-           <svg width="0" height="0">
-        <defs>
-          <clipPath id="custom-shape">
-          <path xmlns="http://www.w3.org/2000/svg" d="M0.5 15C0.5 6.71572 7.21573 0 15.5 0H968C983.464 0 996 12.536 996 28V304.394C996 331.456 974.062 353.394 947 353.394H633.287C606.225 353.394 584.287 375.332 584.287 402.394L584.287 427C584.287 440.807 573.094 452 559.287 452H184.055C156.993 452 135.055 430.062 135.055 403V138.413C135.055 111.351 113.117 89.413 86.0548 89.413H26.5C12.1406 89.413 0.5 77.7724 0.5 63.413V15Z" fill="#D9D9D9"/>
-          
-       
-            <rect x="0" y="0" width="100" height="100" rx="20" />
-          </clipPath>
-        </defs>
-      </svg>
-<img    style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}
-       className="w-full border h-auto object-cover rounded-3xl" src="https://s3-alpha-sig.figma.com/img/7247/926e/23e3424ae4c9f5d0dba367e2b6379a8a?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nuRfDJoswVPIHbVbYQ5El4-kCKPCDVDacXLSHIeietig-EUIJGnySWUH5rdj3XERWWCW~4eoyldjYJbcqajMdzTQhPCQwp7UEBUTTnpXbQdP4Ik5a4qRaWKIhKlAO76zIWCUXnZZKZoGqo2NsBKkENReJTghjSHL20lsAIcc9qQMc2~ondGpXdcqq7UXlaDXwLtNpSuZx-ztD5d2ZhRRkomiuUD5UyV75Mz0VVY86VFIp2WIsiB4L11MK-PR-Bb1Qhio43vdRYEULebXewUwP8hYKYrpr8yn8KDo2TRIcaXM0YHi8fg4ATgHgvBVAPGhkJJZ43Kf2nZ24u4onwyHgQ__" alt="" />
-       
-           </div>
 
-           {/* div 3 */}
-           <div className=''>
+        <div>
+        <div className='w-[380px] right-40 rounded-full absolute -mt-32 bg-[#FCCF12] h-[68px]'>
+<p className='flex justify-center items-center text-white my-4 gap-2'>Contact us Today
+<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.9954 2.09632C19.0485 1.54661 18.646 1.05785 18.0963 1.00465L9.13817 0.137733C8.58846 0.084534 8.0997 0.487042 8.0465 1.03676C7.9933 1.58647 8.39581 2.07523 8.94553 2.12843L16.9083 2.89903L16.1377 10.8618C16.0845 11.4115 16.487 11.9003 17.0368 11.9535C17.5865 12.0067 18.0752 11.6042 18.1284 11.0545L18.9954 2.09632ZM1.63571 16.7719L18.6357 2.77193L17.3643 1.22807L0.364293 15.2281L1.63571 16.7719Z" fill="#F8F8F8"/>
+</svg>
+
+</p>
+</div>
+<div className='absolute -mt-[500px] right-0'>
            
-<div className='w-[150px]'>
+<div className='w-[150px] px-2'>
          
          <div className='flex my-4 flex-col'>
            <p className='text-7xl text-[#262F68]'>8.2<span className='text-[#FCCF12]'>K</span></p>
@@ -100,19 +120,7 @@ friendly rates.</p>
          </div>
          </div>
            </div>
-          
-          
-
         </div>
-        <div className='w-full border'>
-        <div className='w-[200px] right-52 rounded-full absolute -mt-60 bg-[#FCCF12] h-[60px]'>
-<p className='flex justify-center items-center text-white my-4 gap-2'>Contact us Today
-<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18.9954 2.09632C19.0485 1.54661 18.646 1.05785 18.0963 1.00465L9.13817 0.137733C8.58846 0.084534 8.0997 0.487042 8.0465 1.03676C7.9933 1.58647 8.39581 2.07523 8.94553 2.12843L16.9083 2.89903L16.1377 10.8618C16.0845 11.4115 16.487 11.9003 17.0368 11.9535C17.5865 12.0067 18.0752 11.6042 18.1284 11.0545L18.9954 2.09632ZM1.63571 16.7719L18.6357 2.77193L17.3643 1.22807L0.364293 15.2281L1.63571 16.7719Z" fill="#F8F8F8"/>
-</svg>
-
-</p>
-</div>
         </div>
       </div>
     );
