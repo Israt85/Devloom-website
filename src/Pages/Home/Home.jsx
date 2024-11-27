@@ -12,7 +12,7 @@ import HomeBanner from "../../Components/HomeBanner";
 
 const Home = () => {
     return (
-        <div>
+        <div className="">
             <HomeBanner></HomeBanner>
             <Section1></Section1>
             <Section2></Section2>

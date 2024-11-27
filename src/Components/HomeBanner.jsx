@@ -3,9 +3,9 @@ import React from 'react';
 const HomeBanner = () => {
     return (
       <div>
-        <h2 className='text-7xl text-center mx-6 w-[1200px] uppercase my-20 text-[#262F68] font-medium font-audiowide'>website that transform 
+        <h2 className='text-7xl text-center mx-6 max-w-7xl uppercase my-20 text-[#262F68] font-medium font-audiowide'>website that transform 
         your vision</h2>
-          <div className='w-[1300px] flex justify-center items-end'>
+          <div className='w-full flex justify-center items-end'>
             <div className='w-[150px]'>
 
             </div>
