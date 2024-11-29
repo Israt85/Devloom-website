@@ -38,6 +38,7 @@ const Projects = () => {
 <p className="absolute top-0 right-20 font-Arapey text-4xl">01</p>
 <p className="font-audiowide ml-24 text-xl">Mobile App</p>
 <p className="ml-24 text-sm">lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum  </p>
+<div className=" rotate-45 -ml-14 font-Poppins text-[#262F68]">Projects</div>
 </div><div className="relative w-96">
 <div className="w-96 h-80">
 <svg width="0" height="0">
@@ -53,10 +54,13 @@ const Projects = () => {
     <div>
         <img className='object-cover' style={{ clipPath: 'url(#custom-look)', WebkitClipPath: 'url(#custom-look)' }} src="https://s3-alpha-sig.figma.com/img/030e/571a/9a3257f4c8c52a0ed0b98aa17765f782?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lVWVzlDmA-1GZRYGttEkh1Ig-1XcGoIcOIcTgSZ~cbzJ7htOyR7ROp6BWAl0xnhY5CX9QEeD6NsxpbZZtcsiPREj0DfZHbmjcCWbBYdt0rEdIQENd0MMAQOAs~S83U4o1bhVFJkkDiLxn3CLc1IfZxS9kQYKk7WeoEdUgm77rl2cd5r31YVqxKjmrmViyy7D4phWZdVLcpGNLu2WuS7~3ZGfLNGT4W4KuFMyBqYsxxbvQLrbldl-36Tq9XzUTECYkq4o48~lVsCrh~Ke9Sax1M4G8egTjgRamP7hidHeITJ1a1JGXqMJQgZ07SFM7FtlB8nMeLn-ammp0~VyT70Mdg__" alt="" />
     </div>
+    
 </div>
 <p className="absolute top-0 right-20 font-Arapey text-4xl">02</p>
+
 <p className="font-audiowide ml-24 text-xl">Mobile App</p>
 <p className="ml-24 text-sm">lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum  </p>
+<div className=" rotate-45 -ml-14 font-Poppins text-[#262F68]">Projects</div>
 </div><div className="relative w-96">
 <div className="w-96 h-80">
 <svg width="0" height="0">
@@ -76,6 +80,7 @@ const Projects = () => {
 <p className="absolute top-0 right-20 font-Arapey text-4xl">03</p>
 <p className="font-audiowide ml-24 text-xl">Mobile App</p>
 <p className="ml-24 text-sm">lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum  </p>
+<div className=" rotate-45 -ml-14 font-Poppins text-[#262F68]">Projects</div>
 </div>
 </div>
 

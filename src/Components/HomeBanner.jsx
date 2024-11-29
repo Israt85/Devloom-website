@@ -22,7 +22,7 @@ const HomeBanner = () => {
         </defs>
       </svg>
 <img    style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}
-       className="w-full h-auto object-contain rounded-3xl" src="https://s3-alpha-sig.figma.com/img/7247/926e/23e3424ae4c9f5d0dba367e2b6379a8a?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nuRfDJoswVPIHbVbYQ5El4-kCKPCDVDacXLSHIeietig-EUIJGnySWUH5rdj3XERWWCW~4eoyldjYJbcqajMdzTQhPCQwp7UEBUTTnpXbQdP4Ik5a4qRaWKIhKlAO76zIWCUXnZZKZoGqo2NsBKkENReJTghjSHL20lsAIcc9qQMc2~ondGpXdcqq7UXlaDXwLtNpSuZx-ztD5d2ZhRRkomiuUD5UyV75Mz0VVY86VFIp2WIsiB4L11MK-PR-Bb1Qhio43vdRYEULebXewUwP8hYKYrpr8yn8KDo2TRIcaXM0YHi8fg4ATgHgvBVAPGhkJJZ43Kf2nZ24u4onwyHgQ__" alt="" />
+       className="w-full h-auto object-cover rounded-3xl" src="https://s3-alpha-sig.figma.com/img/7247/926e/23e3424ae4c9f5d0dba367e2b6379a8a?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S~Ikk2qSUJ-stYez7ZR93Ur~4dtKI844~jRyCKQDxy3JVIqW93KskvUN6l7tZBIE-AGSzCXQv9Cb~jb6DBnJ8FXxo0SSWapdEGajf0s9SZqGZdmSPgM8RuAajaZH7IYyCXO-7Ea6kG5~wTwoko3bNQ-~OFqMpsrLTjeuHniDu1gSb7~4OO~PKOCKz-C30H1YmWbZxrfn4ZG-5-wy9NU3JXXqhkl-NDzfoJkqrmLNTLOOoBjmZqzuxh4qcAA1RpX0zSH0ZjkrAC8hOFrPPAgOGSUYDr~S3ev74X7vDJYqUSuvg0zdXCf3ub8e9cIjoM0DxQSdfpwGY2I2QzlzTNn-Kw__" alt="" />
        
            </div>
 
