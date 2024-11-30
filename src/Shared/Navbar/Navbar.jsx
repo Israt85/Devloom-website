@@ -10,7 +10,7 @@ const Navbar = () => {
     <ul className="text-white flex justify-evenly my-3 items-center ">
         <NavLink to='/'><li>Home</li></NavLink>
        <NavLink to='/portfolio'> <li>Portfolio</li></NavLink>
-        <li>Contact</li>
+        <NavLink to='/contact'><li>Contact</li></NavLink>
         <li>blog</li>
         <li>EN</li>
     </ul>
