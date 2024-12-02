@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section3 = () => {
     return (
-      <div className='flex items-end'>
+      <div className='flex justify-center w-[900px] mx-auto items-end'>
           <div className='flex flex-col justify-center rotate-12'>
             <p className='font-audiowide z-10 w-40 text-center h-10 rounded-full border-4 border-[#000000]'>APP DESIGN</p>
             <svg className='-mt-4' width="200" height="220" viewBox="0 0 240 238" fill="#FCCF12" xmlns="http://www.w3.org/2000/svg">
@@ -51,6 +51,23 @@ const Section3 = () => {
         </div>
         <div>
         <p className='font-audiowide mb-10 -rotate-12 w-40 text-center h-10 rounded-full border-4 border-[#000000]'>APP DESIGN</p>
+        </div>
+        <div>
+        <p style={{ transform: "rotate(-20deg)" }} className='font-audiowide flex justify-center items-center w-60 mb-5 text-center h-10 rounded-full bg-[#262F68] text-white'>WEB DEVELOPMENT</p>
+        <p className='font-audiowide text-[#262F68] -rotate-6 mb-5 w-60 flex justify-center items-center h-10 rounded-full border-4 border-[#000000]'>BRANDING STRATEGY</p>
+        </div>
+        <div>
+        <p className='font-audiowide mb-10 rotate-12 w-60 text-center h-10 rounded-full border-4 border-[#000000]'>APP DEVELOPMENT</p>
+        </div>
+
+
+        <div className='w-full h-auto relative flex items-end justify-end'>
+        <p style={{ transform: "rotate(-3deg)" }} className='font-audiowide flex justify-center items-center w-60 mb-5 mr-10 text-center h-10 rounded-full bg-[#262F68] text-white'>MARKETING</p>
+       <div className='absolute h-52'>
+       <div className='w-32 h-32 rounded-full bg-[#262F68]'>
+       </div>
+       </div>
+
         </div>
       </div>
     );
