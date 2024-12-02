@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section4 = () => {
     return (
-       <div className='w-full min-h-screen'>
+       <div className='w-full h-auto my-20'>
         <div className='flex justify-between m-4'>
             <p className='text-4xl font-bold font-Poppins'>Our Recent Posts</p>
             <div className='flex justify-center items-center'>
