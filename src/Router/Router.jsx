@@ -6,6 +6,7 @@ import Portfolio from '../Pages/Portfolio/Portfolio';
 import Contact from '../Pages/Contact/Contact';
 import Blogs from '../Pages/Blogs/Blogs';
 import BlogPage from '../Pages/BlogPage/BlogPage';
+import ProjectDetails from '../Pages/ProjectDetails/ProjectDetails';
 
 const Router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const Router = createBrowserRouter([
         {
           path:'blogPage',
           element:<BlogPage></BlogPage>
+        },
+        {
+          path:'/projectDetails',
+          element:<ProjectDetails></ProjectDetails>
         }
       ]
     },
