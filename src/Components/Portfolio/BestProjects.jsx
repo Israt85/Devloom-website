@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const BestProjects = () => {
@@ -9,13 +10,13 @@ const BestProjects = () => {
             </div>
             {/* best projects */}
             <div>
-                <div className="relative">
+                <Link to='/projectDetails'><div className="relative">
                     <img className="w-[1280px] h-[480px]" src="https://s3-alpha-sig.figma.com/img/7868/9628/05f451fe38f90329f0973a92b0b4e473?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wzk7wHrThO-jugrtFXcj~xoyo4eHUNkC9u03NMgR4oUobB2wKOglOf7WLX39EoieYtAl~9QEVweLu10F6mrrplZ9lGLBioEuraeLStcu63OAbgU-AawVEkzF-NXcx68K6hTqkGfzlh9QUboi8~XWJ1YkMdY-KyclOe9DJmw5-2umX4zFHY1VKwCLcdEmL5Ufn86MPwWt6IHSku-A6CkbJ2tHfQsfuBFADHuZhKLMlLHmrv9JlR33vfBdFoQdnXToTHrYEl6squQVwlr0wPb2pXyblCraZiuMytrq~GK3bZ6~td5nuCj~RkxqF7fd6Cc2cSuDrTZwkejTK8w5RK4e3g__" alt="" />
                     <div className="w-[330px] absolute top-0 m-10">
                         <p className="my-2 text-lg font-semibold">Interactive overlays</p>
                         <p>Add custom branded graphics that lay over your live video to intro speakers, emphasize key points, and display clickable CTAs.</p>
                     </div>
-                </div>
+                </div></Link>
                 {/* second pic */}
                 <div className="flex my-6 justify-center items-center gap-6">
                      <div className="relative">
