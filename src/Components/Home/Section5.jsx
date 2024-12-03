@@ -26,7 +26,8 @@ const Section5 = () => {
 </p>
 <p className="text-sm">Devloom gives you all the tools you need to create and host virtual experiences that look awesome and put your brand centerstage.</p>
                    </div>
-                   <img className="w-[500px] rounded-3xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/5237/0cea/b6969e3aa9600c368d0bb2593d6479e0?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=haBEbzLn4n6uMDsvsnq2LAQXtJGZcOf-wQwXMHspBCaO9k842AnCVuLquvWqKmMHp~W8OFtl4sPE0oMMCIGujE41BOrg2A0g4BJ1uBbFnI2sU2HUaZ7Qel5lz5XesrkWL8cH4j8eCQBQcLw1t1DNpgzfi9Q1RxO9uFudqpQOvUPKMu95kqiMZmbt~FnZ6TTyg9-Bqlhe3p-6j60HKGXi5yMfYOJmlsdCv41phMC8aSypK~Bk4lxHDHemY5k0DrT8z42Y3D8eI7CeGOFVx15CxkNEZ9udWmR-Ax2Ht77AFuCGp3qOIUZZt1pyyvXFhP37ND9oxLz-yYl53twO2B0jeA__" alt="" />
+                   {/* img1 */}
+                   <img className="w-[500px] rounded-3xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/5237/0cea/b6969e3aa9600c368d0bb2593d6479e0?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=onPv1~qNPHJZ2lhcR83hErrsZq5i9W4H0s4mAVFKQkWrfL-feICpbxMLk1ajv6bcVGy-WV6ejKkaO~8rnZmV9TqqXBIDXwIx2FrCuHC2n28PbDoHeTlia162l4wdHQJoS063Jx4ZKeOwE~EB-WqeMEAgqvvaN567n5i3QnjgdZOS6a2uAMJbOf3O4YOcllC9KkN3A-dckI72hmQ~ySNo4HzQvUPWWTmpgZpOYNJANT5s9HpmXnDFUW41eIkEnRV4yj~5EepIyalJ1n~PTqFbnBVWZgRcoJ8QL4ZSddbPUCcbVp~Wz9iSk2SoVKKFIyYlVJAZEnUwNODvhGh~trMozg__" alt="" />
                 </div>
                 <div className="w-[780px] flex rounded-3xl justify-evenly items-center px-4 bg-white h-[200px]">
                    <div className="w-[250px] text-black">
@@ -37,7 +38,8 @@ const Section5 = () => {
 </p>
 <p className="text-sm">Cut through the yawns, grab your audience’s attention, and turn passive attendees into active participants.</p>
                    </div>
-                   <img className="w-[500px] rounded-3xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/2cbc/841b/5faa32ad3451738786d4f80cfc1d084f?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kX4L-kmGqg72Tf9fTNeI~fDwreNelxuUONTgH6Fln-AH4ZorLvtT7IEt9pR6L~ons5UXBwfSxpGhgxfb3SX1zCqvc1k7IpTE-sJK4-USXa9bV7S9dKYJLrf2mnD~oVowf~6X9aTrYJSRIPihOGJFafHSi2zYKiZ3-KY~Kd-ON47r7pv8p6EE-woayCAkJyB-HGtQzBNyx8H49uo8Wt0awBMsOBME~chq3v-U7PTv7bPHGyWrZdnu4P2zJLaB4zEDew2K86ytXoDft7zd15m8r-FfbLBlgGMFXFDryRf0tIABCdzXNAolgIFgU1ec4Wi~ItxiL9TOs0geLjJrIwpLrA__" alt="" />
+                   {/* img2 */}
+                   <img className="w-[500px] rounded-3xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/2cbc/841b/5faa32ad3451738786d4f80cfc1d084f?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=op1IfGEyJa28rLAXdYD-cGP5jwVPQsZPhn~eOVavi9MiAHbls9i04TsSm6wbB1Bd8YHsLiE08Lf2zMWBreT~-nXn7UiS8~xLCSVS0GEK9zOQ1Frep9mrsidJDGDBlyNFiyr9mtKO9X1ffPisD-gtXmRu9auAvrPGRGLLGVQjoWDH1r0xsj~53FeE~YtF-jDRIXWU1wQePQOpuAgiALITH8vw6x6~zxIPV8B7Zue8l86tvws-lPpidH85V7OFG9WQPZNbPFy5l50kpp6Isb81a4s5CpB2pAt0zpEV~K9e2ClaE6txsZtA6hOMCRH7-avkanRmqEUJxtMYqwMCjWilAw__" alt="" />
                 </div>
                 <div className="w-[750px] flex rounded-3xl justify-evenly items-center px-4 bg-white h-[200px]">
                    <div className="w-[250px] text-black">
@@ -48,7 +50,8 @@ const Section5 = () => {
 </p>
 <p className="text-sm">Track the success of your events with deep insights and analytics measured across the entire attendee experience.</p>
                    </div>
-                   <img className="w-[500px] rounded-2xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/818a/5b03/70e47250af5f3233218b98f9533f97ef?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jul8N0EUEsMXvliyJ8ZSkh7wNd9~XOhV2V0iDoRWN5j~rFghjpAAKv~9t0xyNpZ70cCibnaTP9h~OjCsItbXtzd~s~TmYO-0josrb3v987uVbbxwwJrYDazXSXz-ZV~H09LkwlxsKgcZecvrOOYcg300Tl3Pb~OQWULuInbJk2fROW98IF6TV4K33XGCjwRsNQm2irJWIPEyc4QjllPRJtw~L1R0BUMSqh-oQtYwCGJ~j8jjrZsNkREgcoAGHq047WSti-ig~H9O0VMSqVs-5GdplQvDaHYZsIwehuA6g~oAddE7WFbhxnDf80Crk0WiSwYDgIApwpGyxcfdlk3TDg__" alt="" />
+                   {/* img 3 */}
+                   <img className="w-[500px] rounded-2xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/818a/https://s3-alpha-sig.figma.com/img/818a/5b03/70e47250af5f3233218b98f9533f97ef?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UuixMyKbk3kbDTYyBFGAGbf3xNSv9kS-urmaNWSKC4eYBm3lnTAXVyqSb4k8nb4a2F0EDBKn3euOu1cPU0fN7eF5Fv22PBaoRpb4qKAJrvDGCPayAmHkFX9NP1DVHhNKSrm4pcTCJNHI593UlxG~b08GpNML44yVVQSEDK9le7R4Cu7GqNXH~DK7a7SKGkH2LagEakKOXC4eZMraPSsMSEDSVX42r7G9dqJcI55BPHXZrEkhc6yw60l6u12gvkeeVkIgnD-nvhNDiN5~H~0OdA3X3CK4lpe3FRrPmLLJ86gor1wSfI-S4ncOGK2TnLyzJUlOsrADGrBoKM4q9vB9Aw__" alt="" />
                 </div>
                
                 

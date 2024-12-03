@@ -53,7 +53,7 @@ const Services = () => {
 </div>
             </div>
             <div className="w-[700px] gap-4 flex ">
-                <img className="w-[350px] rounded-3xl h-[450px]" src="https://s3-alpha-sig.figma.com/img/fc5b/2118/cc8552b1b995c4ce5a13f3d35e3be234?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ar3Sk8kq0p7Qu1VlzPdc1GdcnopVVLwn-9wJVqkgBIedmPHylWXLeWG2Q9TzrpjcA3llC7V-5YVhyAtM77mj3BuSK~zXvXXN9wKZjC0DKJrW5gqT~rAfws6WA2oOy08RIZlWyhf3NHSzWmcxNyffi7Gc8t6eSCdE3lmaJhA6jJeacQUijU4uPnVPDNczsNk7NRgzL5-Ce3p1y0sl8CFj6NNlfWWzQ3IlXRnHRvZj-j1NL8Bj5BktwnlkC15yow1JoojC8iEqP1AN0u9Hdp0ZJUPGeXGpiyIRTZFuGeHbLXR8vLOW2cSQa-dIEM3TZiLuiqk6B1OVBz3C2k-gmZYc4A__" alt="" />
+                <img className="w-[350px] rounded-3xl h-[450px]" src="https://s3-alpha-sig.figma.com/img/fc5b/2118/cc8552b1b995c4ce5a13f3d35e3be234?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UuIGIDp5kos8YwtfJL0pzpyWZGuLY~Dx1MTrTx0wOHZK4qnmgpkHF-Q0ex1JAXurfOwFYH9iGmNYtEEb9EazKDcmC4jT1I5iFiOkr1RZ9EPY9EVt8gIcLgbXhJpDczKbtbCQWsk-DDjhzDXMPb3~GUlpluKNrrRT5DDq1EPOAb6VLfADyw8gUdR1Vqdm5kGnCj9IbnbG50g5ofYzsurIO0GnlK-OFRuk4aWATMjWdMqy5BUDhlm-2Ibb8x-mEi9Kq3TmSPotWCgDrVgFDnw4f1AYHwZf1lWgqDAOx-13GKd1WxYCpnaJLywd~88R3QniVpn2ZSS7rWegV8-C7-ubkw__" alt="" />
                 <div className="h-[500px] flex flex-col gap-10">
                     <div className="w-[200px] text-white rounded-3xl h-[200px] bg-[#262F68]">
 <p className="px-3 py-4">Ever wondered how design magic happens?</p>
