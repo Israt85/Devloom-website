@@ -2,7 +2,7 @@ import '../Home/sidetab.css'
 
 const Section5 = () => {
     return (
-        <div className="w-[1300px] py-10 my-10 text-white bg-[#262F68] h-[1000px]">
+        <div className="w-[1300px] border-t-[12px] border-[#FFC310] py-10 my-10 text-white bg-[#262F68] h-[1000px]">
             <div className='flex gap-72'>
             <div
   className="relative side-tab w-[40px] h-[160px] bg-[#FAD007] text-white font-bold flex items-center justify-center"
@@ -11,7 +11,7 @@ const Section5 = () => {
   <span>PROCEDURE</span>
 </div>
             <div>
-            <p className="text-center text-5xl w-[500px] mx-auto font-audiowide">How Our Design Process <span className="bg-[#FCCF12] text-black px-4">Works </span> </p>
+            <p className="text-center leading-relaxed text-5xl w-[500px] mx-auto font-audiowide">How Our Design Process <span className="bg-[#FCCF12] text-black px-4">Works </span> </p>
             <p className="w-[600px] mx-auto my-4 text-center">Devloom solution follows a collaborative and iterative approach to design, with a focus on understanding and meeting the unique needs of each client.</p>
             </div>
             </div>
@@ -51,7 +51,7 @@ const Section5 = () => {
 <p className="text-sm">Track the success of your events with deep insights and analytics measured across the entire attendee experience.</p>
                    </div>
                    {/* img 3 */}
-                   <img className="w-[500px] rounded-2xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/818a/https://s3-alpha-sig.figma.com/img/818a/5b03/70e47250af5f3233218b98f9533f97ef?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UuixMyKbk3kbDTYyBFGAGbf3xNSv9kS-urmaNWSKC4eYBm3lnTAXVyqSb4k8nb4a2F0EDBKn3euOu1cPU0fN7eF5Fv22PBaoRpb4qKAJrvDGCPayAmHkFX9NP1DVHhNKSrm4pcTCJNHI593UlxG~b08GpNML44yVVQSEDK9le7R4Cu7GqNXH~DK7a7SKGkH2LagEakKOXC4eZMraPSsMSEDSVX42r7G9dqJcI55BPHXZrEkhc6yw60l6u12gvkeeVkIgnD-nvhNDiN5~H~0OdA3X3CK4lpe3FRrPmLLJ86gor1wSfI-S4ncOGK2TnLyzJUlOsrADGrBoKM4q9vB9Aw__" alt="" />
+                   <img className="w-[500px] rounded-2xl h-[150px]" src="https://s3-alpha-sig.figma.com/img/818a/5b03/70e47250af5f3233218b98f9533f97ef?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UuixMyKbk3kbDTYyBFGAGbf3xNSv9kS-urmaNWSKC4eYBm3lnTAXVyqSb4k8nb4a2F0EDBKn3euOu1cPU0fN7eF5Fv22PBaoRpb4qKAJrvDGCPayAmHkFX9NP1DVHhNKSrm4pcTCJNHI593UlxG~b08GpNML44yVVQSEDK9le7R4Cu7GqNXH~DK7a7SKGkH2LagEakKOXC4eZMraPSsMSEDSVX42r7G9dqJcI55BPHXZrEkhc6yw60l6u12gvkeeVkIgnD-nvhNDiN5~H~0OdA3X3CK4lpe3FRrPmLLJ86gor1wSfI-S4ncOGK2TnLyzJUlOsrADGrBoKM4q9vB9Aw__" alt="" />
                 </div>
                
                 

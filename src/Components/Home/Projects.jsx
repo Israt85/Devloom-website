@@ -32,7 +32,8 @@ const Projects = () => {
         </defs>
       </svg>
     <div>
-        <img className='object-cover' style={{ clipPath: 'url(#custom-look)', WebkitClipPath: 'url(#custom-look)' }} src="https://s3-alpha-sig.figma.com/img/5ab2/f3c1/e17481da15ef085b1bdb0657015ae6bc?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dKbQHL20aS-oEY1hADtP36a-fxJc7o4A6HXFX3rAuPmL19xi4l0zc7Zcw6alHI7XErRX8CJ5YrTD4d2c05~iuPVppZnnVJISaBLagOZxGOCaJFAIh-uC~IHgCZwoTA-cfjpilGbFoKSGRermOKhTnX09pIYDlzYqVe1gClJVGhYb54EXvG-fxNKXIDHyfuo~MeswIwaA77HwTlu-INtO~1ERvvsrHo-oO7lRbGJTWpV35EFxwjXnrxVKvVs5447TfX4naK5WpwNwwJSFkJBIgDR9YhXdemJjpSMZhr1zguxSNGBoJu96oL4sZUsb1vDt64y9A~i6Dd3q-8QEceTzDA__" alt="" />
+      {/* img 1 */}
+        <img className='object-cover' style={{ clipPath: 'url(#custom-look)', WebkitClipPath: 'url(#custom-look)' }} src="https://s3-alpha-sig.figma.com/img/5ab2/f3c1/e17481da15ef085b1bdb0657015ae6bc?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qmR1MYBOiNA9qeb8fkLpkYE-7K~pKGKJOUXS-uy7QTlccsaXhsVGWxtBogjy3S5sgp8jdjKeCifVjMV~pr6~FXGDfC7N5L0BsL-VKD5qUW9iT6fmQCGFiZMs1rdgpyuRzGtoi4xr48WCaV7W9ILAd3UwUi~S5wMR5E8LxaaGvQTHgtRtZyabKP2eQL0KR4JhfLuXne9E~YDouB1-98n1uJ~6fcRjM4tCO~b~Z8ep-YhzbLgQjf-ThykidjzV5r6GF5J02ISs5IXNYfYIrCOcNhW9eo05zcuLhjXbaWyWb-CTgF~5uCc1hj3Xchtg9vebKHTx--WTTTWGNmKla1KWAA__" alt="" />
     </div>
 </div>
 <p className="absolute top-0 right-20 font-Arapey text-4xl">01</p>
@@ -52,7 +53,8 @@ const Projects = () => {
         </defs>
       </svg>
     <div>
-        <img className='object-cover' style={{ clipPath: 'url(#custom-look)', WebkitClipPath: 'url(#custom-look)' }} src="https://s3-alpha-sig.figma.com/img/030e/571a/9a3257f4c8c52a0ed0b98aa17765f782?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lVWVzlDmA-1GZRYGttEkh1Ig-1XcGoIcOIcTgSZ~cbzJ7htOyR7ROp6BWAl0xnhY5CX9QEeD6NsxpbZZtcsiPREj0DfZHbmjcCWbBYdt0rEdIQENd0MMAQOAs~S83U4o1bhVFJkkDiLxn3CLc1IfZxS9kQYKk7WeoEdUgm77rl2cd5r31YVqxKjmrmViyy7D4phWZdVLcpGNLu2WuS7~3ZGfLNGT4W4KuFMyBqYsxxbvQLrbldl-36Tq9XzUTECYkq4o48~lVsCrh~Ke9Sax1M4G8egTjgRamP7hidHeITJ1a1JGXqMJQgZ07SFM7FtlB8nMeLn-ammp0~VyT70Mdg__" alt="" />
+      {/* img  2*/}
+        <img className='object-cover' style={{ clipPath: 'url(#custom-look)', WebkitClipPath: 'url(#custom-look)' }} src="https://s3-alpha-sig.figma.com/img/030e/571a/9a3257f4c8c52a0ed0b98aa17765f782?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mS3m25rBY39xxB4a6Pt-Os0otJVFPgULJVZEYjD~BvM2SeE1sRPRsp5omo5yn2MLqFyl2ElGI~tgW7gKODU3Wny~V6416n9dR32G0CyrsrdEWo2P1rP~9k0YtHfOTe17jHh11CHR-rk8a9LIZNNMmDrTUxeAMUaEQ32qlf5DQ7ya8or4MyToYl1~TriDmC7mJqG-fmz7NJeqemQzfLZsIRgCZw3Y-6fyp8uwdLqCWnZL0VdAWXRhWmRwTF~l5PtaBNCoPZWddI6Jd1vX94xeImUEnM7ndv7YbedZKJ1NXlMxxrlDzxVfVe-Q0xAJNEtqE80TwOQ7cHlW~qRAZkLjwA__" alt="" />
     </div>
     
 </div>
@@ -74,7 +76,8 @@ const Projects = () => {
         </defs>
       </svg>
     <div>
-        <img className='object-cover' style={{ clipPath: 'url(#custom-look)', WebkitClipPath: 'url(#custom-look)' }} src="https://s3-alpha-sig.figma.com/img/8469/a844/9761628e3ff4015d0512b6f7215ef73f?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qu~D9AGfmjoIf1LJr0KoHByDT2-XZG4Q2uKbR8vWQeNae5btWhU1p0Rq2y34K3s1hy-gNdYn3pH9ZRruL-eD9gxtF8IFo6yik-KGXZ0Q4zhGUf4kew~6NORFDvSJ4Fw~3FO7VAMf5ijd9s6RgE6IXirVYEtfjahcQUyBmXL6mgIXceIkFKAgpEnhMb~Yl9xknklEHG9n5XhP12heE3yyyHOMlLZyjki1z--JlaX1dmzTZBS5rEXyJgdsoF6BI-BOMeOUNuwO3je2Riryph44Bmfza5x1labEUFNRhHb1M9OjNb8aZST8jt2DKXC8cFx0nGhlK2LYo~mlozkR6OA2zA__" alt="" />
+      {/* img 3 */}
+        <img className='object-cover' style={{ clipPath: 'url(#custom-look)', WebkitClipPath: 'url(#custom-look)' }} src="https://s3-alpha-sig.figma.com/img/8469/a844/9761628e3ff4015d0512b6f7215ef73f?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n51frOvYYrDSoVLWMB9dCwl4H~qswKmzSfDnz2xemPLW9~hMCRQVBtBmYDJJQqBx03IuUqMqMesnFQj3n-4Q4bQ0a3Y45tkg8dSXcjfXnwKoTUueBDMrBNL2jnbw9MbAE--LOvqbCdslfg0RnvQnKyUPNJkPmMvpkvPirpXrHdvZEIMZ25wqCLLE-F365YBxf~RcaKFnRqZ2-5zUHAYZM~xNbIw9VGbiv-fvO3wsSC3c~-AmPaUfx~yjdD8d0r~xLLR9F~4aSph0PntOZDANqUqCqxiqykZ~V-bsfZaDeIzAyHYwwyc51G0JV02UmfXs0q-AvSWoor5Nb4uZHSA72Q__" alt="" />
     </div>
 </div>
 <p className="absolute top-0 right-20 font-Arapey text-4xl">03</p>
