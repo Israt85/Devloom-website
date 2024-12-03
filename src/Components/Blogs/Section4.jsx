@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Section4 = () => {
     return (
@@ -19,7 +20,7 @@ const Section4 = () => {
                <p className='w-[500px] my-10'>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
                </p>
                <div className='w-40 flex mt-16 justify-center items-center h-10 rounded-full border-2 border-[#262F68]'>
-                         <p className='text-[#262F68] font-bold'>Read More</p>
+               <Link to='/blogPage'><p className='text-[#262F68] font-bold'>Read More</p> </Link>
                     </div>
                 </div>        </div>
        </div>
