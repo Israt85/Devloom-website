@@ -2,7 +2,7 @@
 
 const Section1 = () => {
     return (
-        <div className="relative my-20 h-[120px] flex justify-center items-center">
+        <div className="relative my-20 h-[120px] flex justify-center mx-auto lg:flex-row flex-col items-center">
        
         <div className="absolute top-8 z-10 left-0 w-[1300px] bg-[#FAD007] h-[40px] rotate-[5deg] flex items-center justify-around text-[#262F68] font-semibold space-x-2">
             <span><svg width="44" height="37" viewBox="0 0 44 37" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -3,15 +3,15 @@ import React from 'react';
 const HomeBanner = () => {
     return (
       <div>
-        <h2 className='text-7xl text-center mx-6 max-w-7xl uppercase my-20 text-[#262F68] font-medium font-audiowide'>website that transform 
+        <h2 className='lg:text-7xl text-4xl text-center lg:mx-6 lg:max-w-7xl w-full uppercase my-20 text-[#262F68] font-medium mx-auto font-audiowide'>website that transform 
         your vision</h2>
-          <div className='w-full flex justify-center items-end'>
-            <div className='w-[150px]'>
+          <div className='w-full flex lg:flex-row flex-col justify-center items-end'>
+            <div className='w-[150px] lg:block hidden'>
 
             </div>
            
            <div className=" h-[500px]">
-           <svg width="0" height="0">
+           <svg className='lg:block hidden' width="0" height="0">
         <defs>
           <clipPath id="custom-shape">
           <path xmlns="http://www.w3.org/2000/svg" d="M0.5 15C0.5 6.71572 7.21573 0 15.5 0H968C983.464 0 996 12.536 996 28V304.394C996 331.456 974.062 353.394 947 353.394H633.287C606.225 353.394 584.287 375.332 584.287 402.394L584.287 427C584.287 440.807 573.094 452 559.287 452H184.055C156.993 452 135.055 430.062 135.055 403V138.413C135.055 111.351 113.117 89.413 86.0548 89.413H26.5C12.1406 89.413 0.5 77.7724 0.5 63.413V15Z" fill="#D9D9D9"/>
@@ -32,10 +32,10 @@ const HomeBanner = () => {
           
 
         </div>
-        <div className='w-full border'>
+        <div className='w-full '>
 
       {/* first part */}
-      <div className='w-60 left-0 -mt-96 absolute'>
+      <div className='w-60 mx-auto lg:left-0 lg:-mt-96 lg:absolute'>
            <div className='flex'>
            <img className='w-[106px] h-[103px] rounded-full' src="https://s3-alpha-sig.figma.com/img/2053/102e/c8db8239de2891ae8c2a6f68d9098bd4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AyX4Y-N~02pBwqKk7jCFdAkgU83NgqcduPQ26lXnQ~5Ikpe8G~2g1hpH2Xi7~6mL1jGaZPKjC~zB3RGOEfeLzQXyHv0AL85XZEmML3xc069zer~XMRXdjfu86MbYHG5aMhRa4yhyGtM1rLxvzm6eWQd0dcL11pL-YcZCVQf~Fj2nullu11OnyKsYhqAX3EhOnw9RhgNPSnr0eDq8hfl6fkeU8WMfzfetRzucvTce2VZuBhgUzztfX-pcwsj7pQ5M1v3UMkk2e7n2uKX7~YHylR3CCxG9IW3cS59gCz7rGB8b9p9JzB7jGKhxBdDl6bpftmsn29HoQ6Aq5bjcNhjNFw__" alt="" />
             <div>
@@ -95,7 +95,7 @@ friendly rates.</p>
 
 
         <div>
-        <div className='w-[380px] right-40 rounded-full absolute -mt-32 bg-[#FCCF12] h-[68px]'>
+        <div className='lg:w-[380px] flex my-6 items-center justify-center w-full lg:right-40 rounded-full lg:absolute lg:-mt-32 bg-[#FCCF12] h-[68px]'>
 <p className='flex justify-center items-center text-white my-4 gap-2'>Contact us Today
 <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.9954 2.09632C19.0485 1.54661 18.646 1.05785 18.0963 1.00465L9.13817 0.137733C8.58846 0.084534 8.0997 0.487042 8.0465 1.03676C7.9933 1.58647 8.39581 2.07523 8.94553 2.12843L16.9083 2.89903L16.1377 10.8618C16.0845 11.4115 16.487 11.9003 17.0368 11.9535C17.5865 12.0067 18.0752 11.6042 18.1284 11.0545L18.9954 2.09632ZM1.63571 16.7719L18.6357 2.77193L17.3643 1.22807L0.364293 15.2281L1.63571 16.7719Z" fill="#F8F8F8"/>
@@ -103,11 +103,11 @@ friendly rates.</p>
 
 </p>
 </div>
-<div className='absolute -mt-[500px] right-0'>
+<div className='lg:absolute lg:-mt-[500px] lg:right-0'>
            
-<div className='w-[150px] px-2'>
+<div className='lg:w-[150px] w-full flex flex-wrap gap-4 mx-auto flex-row justify-center items-center px-2'>
          
-         <div className='flex my-4 flex-col'>
+         <div className='flex  my-4 flex-col'>
            <p className='text-7xl text-[#262F68]'>8.2<span className='text-[#FCCF12]'>K</span></p>
            <p className='text-[#262F68] text-lg my-2'>Trusted Users</p>
          </div><div className='flex my-4 flex-col'>

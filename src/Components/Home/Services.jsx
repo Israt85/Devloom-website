@@ -1,17 +1,17 @@
 import '../Home/sidetab.css'
 const Services = () => {
     return (
-        <div className="flex gap-20">
+        <div className="flex gap-4 lg:gap-20">
             <div
   className="relative side-tab w-[40px] h-[180px] bg-[#FAD007] text-white font-bold flex items-center justify-center"
  
 >
   <span>WHATWEDO</span>
 </div>
-            <div className="w-[450px] h-[500px]">
-<p className="font-audiowide text-5xl">Our Services</p>
-<p>Devloom offers a range of design services that are tailored to meet the unique needs of each client</p>
-<div className="w-[350px] h-[450px]">
+            <div className="lg:w-[450px] w-full lg:h-[500px]">
+<p className="font-audiowide text-2xl lg:text-5xl">Our Services</p>
+<p className='lg:w-[450px] w-[250px]'>Devloom offers a range of design services that are tailored to meet the unique needs of each client</p>
+<div className="lg:w-[350px] w-full h-[450px]">
 <div className="w-full text-white h-20 my-6 flex  justify-around items-center bg-[#262F68] rounded-full">
     <p className="text-[#FAD007] text-lg font-bold">01</p>
     <p>UI/UX Design</p>

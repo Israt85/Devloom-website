@@ -12,7 +12,7 @@ import HomeBanner from "../../Components/HomeBanner";
 
 const Home = () => {
     return (
-        <div className="">
+        <div className="max-w-screen-xl mx-auto">
             <HomeBanner></HomeBanner>
             <Section1></Section1>
             <Section2></Section2>

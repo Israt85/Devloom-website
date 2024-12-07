@@ -11,9 +11,9 @@ const Section2 = () => {
           </clipPath>
         </defs>
       </svg>
-            <div className="w-full h-[1100px] bg-[#262F68]" style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}>
-               <h2 className="text-white tracking-widest pt-32 text-center text-2xl w-[500px] mx-auto font-audiowide">MOST COST EFFICIENT & USER FRIENDLY APPS BY DEVLOOM </h2>
-               <div className=" flex justify-center items-center w-[1300px] -mt-20 h-[900px] mx-auto">
+            <div className="w-full lg:h-[1100px] min-h-screen bg-[#262F68]" style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}>
+               <h2 className="text-white tracking-widest pt-32 text-center text-2xl w-full lg:w-[500px] mx-auto font-audiowide">MOST COST EFFICIENT & USER FRIENDLY APPS BY DEVLOOM </h2>
+               <div className=" flex flex-row justify-center items-center w-full lg:w-[1300px] -mt-20 h-[900px] mx-auto">
                <div className="">
                <div>
                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
