@@ -73,8 +73,8 @@ const Footer = () => {
             </div>
            
         </div>
-        <div className="w-full border-t-2 my-10">
-         <ul className="flex justify-end mx-2 lg:gap-10 text-white my-4 gap-4 lg:mr-40">
+        <div className="w-full border-t-2 mt-10">
+         <ul className="flex justify-end mx-2 lg:gap-10 text-white mt-4 py-2 gap-4 lg:mr-40">
             <li>Home</li>
             <li>About</li>
             <li>Portfolio</li>

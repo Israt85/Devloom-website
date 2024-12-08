@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectBanner = () => {
   return (
     <div className="w-full my-10 h-[500px]">
-      <div className="h-[500px] w-full relative">
+      <div className="lg:h-[500px] h-full px-4 w-full relative">
         <svg width="0" height="0">
           <defs>
             <clipPath id="Banner-pic" clipPathUnits="userSpaceOnUse">
