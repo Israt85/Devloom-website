@@ -12,9 +12,6 @@ export default {
         Arapey: ['Arapey', 'sans-serif',],
         Inter: ['Inter', 'sans-serif',],
       },
-      clipPath: {
-        customTab: "polygon(0 0, 100% 0, 85% 100%, 0% 100%)",
-      },
     },
   },
   plugins: [

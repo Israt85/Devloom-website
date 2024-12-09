@@ -1,7 +1,7 @@
 import '../Home/sidetab.css'
 const Services = () => {
     return (
-        <div className="flex lg:flex-row flex-col flex-wrap gap-4 lg:gap-20">
+        <div className="flex lg:flex-row flex-col gap-4 lg:gap-20">
             <div
   className="relative side-tab w-[40px] h-[180px] bg-[#FAD007] text-white font-bold flex items-center justify-center"
  
@@ -52,7 +52,7 @@ const Services = () => {
 </div>
 </div>
             </div>
-            <div className="lg:w-[700px] w-full gap-4 flex lg:flex-row flex-col justify-center items-center ">
+            <div className="lg:w-[700px] w-full gap-4 flex lg:flex-row flex-col justify-center lg:items-start items-center ">
                 <img className="w-[350px] rounded-3xl h-[450px]" src="https://s3-alpha-sig.figma.com/img/fc5b/2118/cc8552b1b995c4ce5a13f3d35e3be234?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UuIGIDp5kos8YwtfJL0pzpyWZGuLY~Dx1MTrTx0wOHZK4qnmgpkHF-Q0ex1JAXurfOwFYH9iGmNYtEEb9EazKDcmC4jT1I5iFiOkr1RZ9EPY9EVt8gIcLgbXhJpDczKbtbCQWsk-DDjhzDXMPb3~GUlpluKNrrRT5DDq1EPOAb6VLfADyw8gUdR1Vqdm5kGnCj9IbnbG50g5ofYzsurIO0GnlK-OFRuk4aWATMjWdMqy5BUDhlm-2Ibb8x-mEi9Kq3TmSPotWCgDrVgFDnw4f1AYHwZf1lWgqDAOx-13GKd1WxYCpnaJLywd~88R3QniVpn2ZSS7rWegV8-C7-ubkw__" alt="" />
                 <div className="h-[500px] flex flex-col gap-10">
                     <div className="w-[200px] text-white rounded-3xl h-[200px] bg-[#262F68]">
