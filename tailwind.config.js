@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+const daisyui = require('daisyui');
+
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -7,15 +9,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        audiowide: ['"Audiowide"', 'sans-serif',],
-        Poppins: ['Poppins', 'sans-serif',],
-        Arapey: ['Arapey', 'sans-serif',],
-        Inter: ['Inter', 'sans-serif',],
+        audiowide: ['"Audiowide"', 'sans-serif'],
+        Poppins: ['Poppins', 'sans-serif'],
+        Arapey: ['Arapey', 'sans-serif'],
+        Inter: ['Inter', 'sans-serif'],
       },
     },
   },
   plugins: [
-    require('daisyui'),
+    daisyui, 
   ],
-}
-
+};
