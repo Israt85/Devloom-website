@@ -1,8 +1,9 @@
-
+import Marquee from "react-fast-marquee";
 
 const Section3 = () => {
     return (
-        <div className="w-[1300px] gap-4 justify-center grid grid-cols-5 items-center my-32 h-[200px] bg-[#FAD007]">
+       <Marquee>
+         <div className="w-[1300px] gap-4 justify-center grid grid-cols-5 items-center my-32 h-[200px] bg-[#FAD007]">
            <div>
            <svg width="195" height="56" viewBox="0 0 195 56" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_36_1938)">
@@ -127,6 +128,7 @@ const Section3 = () => {
 
            </div>
         </div>
+       </Marquee>
     );
 };
 

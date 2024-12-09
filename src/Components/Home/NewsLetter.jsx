@@ -1,6 +1,6 @@
 const NewsLetter = () => {
     return (
-        <div className="lg:w-[1300px] w-full my-20 relative h-auto">
+        <div className="lg:w-[1200px] w-full lg:mx-auto my-20 relative h-auto">
            <img className="rounded-3xl h-96 lg:my-20" src="https://s3-alpha-sig.figma.com/img/9e37/d27f/5f1532e39729217193af879be4bfe9ba?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cnZ16CguNicexJZv0OQD9TdRZOc03PhcvKyyPUx3rc5hwEyKDTFWzuoZphinp1Jg~qQFTDfD2-h8a30WYF-Kpb51g25C26ABkRbjHeQ1ZKnpZ5WZTXFUyCW-z3~fKe7YaKFK-214d3SWwE7pbAtyypR3jubwvwqUZ8fFEES9ypQP7u8iRbUZVqAEh1p7oPiKSx-Ha9joX8qxzydV00tbyoN-VQvMQdnupHpXKPPcjKp1XCvliOJ2X81VDd9j~E0OTk64T1Zc1I2zptkxs~sbX7aVzaQvG0Eo2x5W8f12hvirTYces7~AT2NYAeqey9bOcwDMcOwGp51VtOg8AmEN4w__" alt="" /> 
            <div className="absolute top-0 inset-0">
             <h2 className="text-white text-5xl py-10 px-4 w-[350px]">Signup for the newsletter</h2>

@@ -14,8 +14,8 @@ const Projects = () => {
         <p className='lg:text-5xl text-3xl uppercase font-audiowide text-[rgb(38,47,104)] lg:w-[400px]'>Lattest
         Projects</p>
     </div>
-    <div className='lg:w-[630px] mx-auto w-full'>
-        <p className="w-80"> Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit</p>
+    <div className='w-[630px] lg:mx-auto '>
+        <p className="lg:w-full lg:mx-0 px-2 mx-auto uppercase text-[#262F68] w-80"> Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit .Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit</p>
     </div>
 </div>
 <div className="flex flex-col gap-6 lg:flex-row justify-center items-center lg:gap-4 my-20">
