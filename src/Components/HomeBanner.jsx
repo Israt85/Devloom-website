@@ -1,5 +1,6 @@
 import React from 'react';
-
+import img1 from '../assets/Images/HomeBanner.png'
+import img2 from '../assets/Images/BannerImg2.jpg'
 const HomeBanner = () => {
     return (
       <div>
@@ -22,7 +23,7 @@ const HomeBanner = () => {
         </defs>
       </svg>
 <img    style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}
-       className="w-full h-auto object-cover rounded-3xl" src="https://s3-alpha-sig.figma.com/img/7247/926e/23e3424ae4c9f5d0dba367e2b6379a8a?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S~Ikk2qSUJ-stYez7ZR93Ur~4dtKI844~jRyCKQDxy3JVIqW93KskvUN6l7tZBIE-AGSzCXQv9Cb~jb6DBnJ8FXxo0SSWapdEGajf0s9SZqGZdmSPgM8RuAajaZH7IYyCXO-7Ea6kG5~wTwoko3bNQ-~OFqMpsrLTjeuHniDu1gSb7~4OO~PKOCKz-C30H1YmWbZxrfn4ZG-5-wy9NU3JXXqhkl-NDzfoJkqrmLNTLOOoBjmZqzuxh4qcAA1RpX0zSH0ZjkrAC8hOFrPPAgOGSUYDr~S3ev74X7vDJYqUSuvg0zdXCf3ub8e9cIjoM0DxQSdfpwGY2I2QzlzTNn-Kw__" alt="" />
+       className="w-full h-auto object-cover rounded-3xl" src={img1} alt="" />
        
            </div>
 
@@ -37,7 +38,7 @@ const HomeBanner = () => {
       {/* first part */}
       <div className='w-60 mx-auto lg:left-0 lg:-mt-96 lg:absolute'>
            <div className='flex'>
-           <img className='w-[106px] h-[103px] rounded-full' src="https://s3-alpha-sig.figma.com/img/2053/102e/c8db8239de2891ae8c2a6f68d9098bd4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AyX4Y-N~02pBwqKk7jCFdAkgU83NgqcduPQ26lXnQ~5Ikpe8G~2g1hpH2Xi7~6mL1jGaZPKjC~zB3RGOEfeLzQXyHv0AL85XZEmML3xc069zer~XMRXdjfu86MbYHG5aMhRa4yhyGtM1rLxvzm6eWQd0dcL11pL-YcZCVQf~Fj2nullu11OnyKsYhqAX3EhOnw9RhgNPSnr0eDq8hfl6fkeU8WMfzfetRzucvTce2VZuBhgUzztfX-pcwsj7pQ5M1v3UMkk2e7n2uKX7~YHylR3CCxG9IW3cS59gCz7rGB8b9p9JzB7jGKhxBdDl6bpftmsn29HoQ6Aq5bjcNhjNFw__" alt="" />
+           <img className='w-[106px] h-[103px] rounded-full' src={img2} alt="" />
             <div>
             <svg className='relative' width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M43.8871 86.2335L46.8937 86.8066L45.1287 96.0949L42.0269 95.5037C41.1169 95.3303 40.3707 94.9954 39.7884 94.4991C39.2054 94.0057 38.8059 93.3797 38.5898 92.6211C38.3701 91.8649 38.3519 91.0045 38.5352 90.04C38.719 89.0725 39.0539 88.2747 39.5397 87.6467C40.0226 87.0181 40.6322 86.5797 41.3685 86.3316C42.1043 86.0865 42.9438 86.0538 43.8871 86.2335ZM45.2597 87.764L43.7315 87.4728C43.024 87.3379 42.4107 87.3589 41.8916 87.5357C41.3718 87.7155 40.9473 88.0371 40.618 88.5007C40.2881 88.9673 40.0534 89.568 39.9138 90.3027C39.7753 91.0314 39.7742 91.6719 39.9105 92.2242C40.0437 92.776 40.3136 93.2269 40.7201 93.5769C41.1266 93.927 41.6685 94.1666 42.3457 94.2956L43.9601 94.6033L45.2597 87.764Z" fill="#170F49"/>

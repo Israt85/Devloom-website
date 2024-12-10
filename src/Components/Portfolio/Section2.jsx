@@ -1,3 +1,4 @@
+import img1 from '../../assets/Images/portfolioBanner.png'
 const Section2 = () => {
     return (
         <div>
@@ -65,7 +66,7 @@ IOS &Andriod</p>
                 </div>
                </div>
                <div className="">
-                <img className="w-[600px] mx-auto -mt-80 h-[800px]" src="https://s3-alpha-sig.figma.com/img/db90/5dd4/f1f43a2885cf299e3b9aee97d576fac7?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hyGXGm8lcDeau7HZb1HfL0~JnJEkO~ph9vikY9vHvZ8HjZ7BE8LGVJ1ttuAxwsUfUFqmG1NTMyl1AZ7R1sWhTolDbbbSiL3F-0gwi0Zb0P--wQebBtHOOchnXUGiB1STzUpufMp7ySkHC3KygHua7IvDa7oZoRU-3QBReWUVv~KE1h7hOkulGlgKzHxL6~5ptfbkcrMq7BD6nQlAmX7wkEAWr4JmLAfcZEdjHxznqx794kyl8zWPXloS97GVAB7lwNhvtwiSxeDeO6ZfeLh8P8hpWVrS8UVOsCRcL6BYoNljQTtKMmPyRJuqPZcjg86NGhyWRpwFyB1rbXJEX0eEgA__" alt="" />
+                <img className="w-[600px] mx-auto -mt-80 h-[800px]" src={img1} alt="" />
                </div>
                <div>
                <div className="flex flex-col justify-end items-end text-right">

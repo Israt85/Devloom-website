@@ -1,9 +1,9 @@
 import React from 'react';
-
+import img1 from '../../assets/Images/contact1.jpg'
 const Section2 = () => {
     return (
         <div className='w-full flex lg:flex-row flex-col h-auto'>
-            <img className='md:w-[450px] w-full h-full rounded-lg mx-auto md:h-[650px]' src="https://s3-alpha-sig.figma.com/img/fdcd/38db/3a373dc39accd95d2a4574d166f36a55?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XZ-HQPOiV2xqbZe9a6lGxQ8jJK5GIPi4o6~h3gs5~S9kAxxZbYiPVBF4sPDJ6OyqmRnvWoBbzdaTyLpYmmXaRNeOgn3q5Gyl~b7HQuV9tdnA-Wdmqefjle3FIRJhnkzBpUasPPSpAn3HvGgXjfq-D0fzdzSNiWPr29kxEVmgcZy2NqDzIy1ZYJqWsVEojn1edjNX4f6LXhScmJ4KNGr3fXJ3y48C~i0c7APNsaUeTFUbIYUp1WuKb-RLg6dD2lKV9QcGxiJKJATgyTPs9rVGhatw9L0VeZou50vg4u8fhahEaAxpmhw8GtqiE2r~lYmMhMFOLbo4f-qZSFcYhlzy2Q__" alt="" />
+            <img className='md:w-[450px] px-2 w-full h-full rounded-lg mx-auto md:h-[650px]' src={img1} alt="" />
             <div className='w-full'>
                 <div className=' flex md:flex-row flex-col items-center justify-center mt-6 md:justify-around'>
                     <input className='w-72 pb-4 border-b-2 border-[#00000066]' type="text" placeholder='First Name' />
