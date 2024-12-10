@@ -12,9 +12,10 @@ const Section2 = () => {
           </clipPath>
         </defs>
       </svg>
-            <div className="w-full lg:h-[1100px] min-h-screen bg-[#262F68]" style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}>
+            <div className="w-full lg:h-[1100px] bg-[#262F68]" style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}>
+          
                <h2 className="text-white tracking-widest pt-32 text-center text-2xl w-full lg:w-[500px] mx-auto font-audiowide">MOST COST EFFICIENT & USER FRIENDLY APPS BY DEVLOOM </h2>
-               <div className=" flex flex-row justify-center items-center w-full lg:w-[1300px] -mt-20 h-[900px] mx-auto">
+               <div className=" flex lg:flex-row flex-col flex-wrap justify-center items-center w-full xl:w-[1300px] lg:-mt-20 h-auto lg:h-[900px] mx-auto">
                <div className="">
                <div>
                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +38,7 @@ Mobile apps</p>
 <p className="text-white w-[220px]">Our efficient mobile apps we create are user friendly</p>
 
                 </div>
-                <div className="my-20">
+                <div className="lg:my-20">
                 <svg width="39" height="40" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_24_1317)">
 <g clip-path="url(#clip1_24_1317)">
@@ -66,7 +67,7 @@ IOS &Andriod</p>
                 </div>
                </div>
                <div className="">
-                <img className="w-[600px] mx-auto -mt-80 h-[800px]" src={img1} alt="" />
+                <img className="lg:w-[600px] w-full h-full mx-auto lg:-mt-40 xl:-mt-80 md:h-[400px] lg:h-[800px]" src={img1} alt="" />
                </div>
                <div>
                <div className="flex flex-col justify-end items-end text-right">
@@ -90,7 +91,7 @@ Mobile apps</p>
 <p className="text-white w-[220px]">Our efficient mobile apps we create are user friendly</p>
 
                 </div>
-                <div className="flex my-20 flex-col justify-end items-end text-right">
+                <div className="flex lg:my-20 flex-col justify-end items-end text-right">
                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_24_1301)">
 <g clip-path="url(#clip1_24_1301)">

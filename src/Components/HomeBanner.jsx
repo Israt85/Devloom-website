@@ -6,12 +6,12 @@ const HomeBanner = () => {
       <div>
         <h2 className='lg:text-7xl text-4xl text-center lg:mx-6 lg:max-w-7xl w-full uppercase my-20 text-[#262F68] font-medium mx-auto font-audiowide'>website that transform 
         your vision</h2>
-          <div className='w-full flex lg:flex-row flex-col justify-center items-end'>
+          <div className='w-full flex md:flex-row flex-col justify-center items-end'>
             <div className='w-[150px] lg:block hidden'>
 
             </div>
            
-           <div className=" h-[500px]">
+           <div className=" lg:h-[500px]">
            <svg className='lg:block hidden' width="0" height="0">
         <defs>
           <clipPath id="custom-shape">
@@ -23,7 +23,7 @@ const HomeBanner = () => {
         </defs>
       </svg>
 <img    style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}
-       className="w-full h-auto object-cover rounded-3xl" src={img1} alt="" />
+       className="lg:w-full lg:h-auto md:w-full md:h-20 object-cover rounded-3xl" src={img1} alt="" />
        
            </div>
 

@@ -8,9 +8,9 @@ const Services = () => {
 >
   <span>WHATWEDO</span>
 </div>
-            <div className="lg:w-[450px] w-full lg:h-[500px]">
-<p className="font-audiowide text-2xl lg:text-5xl">Our Services</p>
-<p className='lg:w-[450px] w-[250px]'>Devloom offers a range of design services that are tailored to meet the unique needs of each client</p>
+            <div className="lg:w-[450px] lg:px-0 w-full lg:h-[500px]">
+<p className="font-audiowide text-2xl lg:text-left text-center lg:text-5xl">Our Services</p>
+<p className='lg:w-[450px] mx-auto lg:mx-0 w-[250px]'>Devloom offers a range of design services that are tailored to meet the unique needs of each client</p>
 <div className="lg:w-[350px] w-full h-[450px]">
 <div className="w-full text-white h-20 my-6 flex  justify-around items-center bg-[#262F68] rounded-full">
     <p className="text-[#FAD007] text-lg font-bold">01</p>
@@ -52,7 +52,7 @@ const Services = () => {
 </div>
 </div>
             </div>
-            <div className="lg:w-[700px] w-full gap-4 flex lg:flex-row flex-col justify-center lg:items-start items-center ">
+            <div className="lg:w-[700px] w-full gap-4 flex md:flex-row flex-col justify-center md:items-start items-center ">
                 <img className="w-[350px] rounded-3xl h-[450px]" src="https://s3-alpha-sig.figma.com/img/fc5b/2118/cc8552b1b995c4ce5a13f3d35e3be234?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UuIGIDp5kos8YwtfJL0pzpyWZGuLY~Dx1MTrTx0wOHZK4qnmgpkHF-Q0ex1JAXurfOwFYH9iGmNYtEEb9EazKDcmC4jT1I5iFiOkr1RZ9EPY9EVt8gIcLgbXhJpDczKbtbCQWsk-DDjhzDXMPb3~GUlpluKNrrRT5DDq1EPOAb6VLfADyw8gUdR1Vqdm5kGnCj9IbnbG50g5ofYzsurIO0GnlK-OFRuk4aWATMjWdMqy5BUDhlm-2Ibb8x-mEi9Kq3TmSPotWCgDrVgFDnw4f1AYHwZf1lWgqDAOx-13GKd1WxYCpnaJLywd~88R3QniVpn2ZSS7rWegV8-C7-ubkw__" alt="" />
                 <div className="h-[500px] flex flex-col gap-10">
                     <div className="w-[200px] text-white rounded-3xl h-[200px] bg-[#262F68]">
