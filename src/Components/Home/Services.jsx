@@ -1,5 +1,11 @@
+import { useState } from 'react';
 import '../Home/sidetab.css'
 const Services = () => {
+   
+        const [isActive, setIsActive]= useState(false)
+        const handleClick=()=>{
+            setIsActive(!isActive)
+        }
     return (
         <div className="flex lg:flex-row flex-col gap-4 lg:gap-20">
             <div
@@ -12,11 +18,14 @@ const Services = () => {
 <p className="font-audiowide text-2xl lg:text-left text-center lg:text-5xl">Our Services</p>
 <p className='lg:w-[450px] mx-auto lg:mx-0 w-[250px]'>Devloom offers a range of design services that are tailored to meet the unique needs of each client</p>
 <div className="lg:w-[350px] w-full h-[450px]">
-<div className="w-full text-white h-20 my-6 flex  justify-around items-center bg-[#262F68] rounded-full">
-    <p className="text-[#FAD007] text-lg font-bold">01</p>
+<div  className={`w-full  h-20 my-6 flex justify-around items-center  rounded-full ${
+    isActive ? "bg-[#262F68] text-white" : "border text-black"
+  }`}
+  onClick={handleClick}>
+    <p className={` text-lg font-bold ${isActive? "text-[#FAD007]":"text-black"} `}>01</p>
     <p>UI/UX Design</p>
-    <p><svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.7071 8.20711C25.0976 7.81658 25.0976 7.18342 24.7071 6.79289L18.3431 0.428932C17.9526 0.0384078 17.3195 0.0384078 16.9289 0.428932C16.5384 0.819457 16.5384 1.45262 16.9289 1.84315L22.5858 7.5L16.9289 13.1569C16.5384 13.5474 16.5384 14.1805 16.9289 14.5711C17.3195 14.9616 17.9526 14.9616 18.3431 14.5711L24.7071 8.20711ZM0 8.5H24V6.5H0V8.5Z" fill="white"/>
+    <p ><svg className={`${isActive? "fill-white": "fill-[#262F68]"}`} width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.7071 8.20711C25.0976 7.81658 25.0976 7.18342 24.7071 6.79289L18.3431 0.428932C17.9526 0.0384078 17.3195 0.0384078 16.9289 0.428932C16.5384 0.819457 16.5384 1.45262 16.9289 1.84315L22.5858 7.5L16.9289 13.1569C16.5384 13.5474 16.5384 14.1805 16.9289 14.5711C17.3195 14.9616 17.9526 14.9616 18.3431 14.5711L24.7071 8.20711ZM0 8.5H24V6.5H0V8.5Z" fill=""/>
 </svg>
 </p>
 </div>
