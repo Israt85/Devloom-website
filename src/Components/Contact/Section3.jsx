@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section3 = () => {
     return (
-      <div className='flex justify-center w-full xl:w-[900px] mx-auto items-end'>
+      <div className='lg:flex hidden justify-center w-full xl:w-[900px] mx-auto items-end'>
           <div className='flex flex-col justify-center rotate-12'>
             <p className='font-audiowide z-10 w-40 text-center h-10 rounded-full border-4 border-[#000000]'>APP DESIGN</p>
             <svg className='-mt-4' width="200" height="220" viewBox="0 0 240 238" fill="#FCCF12" xmlns="http://www.w3.org/2000/svg">

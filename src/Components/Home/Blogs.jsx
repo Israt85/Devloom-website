@@ -11,9 +11,9 @@ const Blogs = () => {
 </div>
 <div className="my-6">
     <h2 className="w-20 py-2 lg:mx-0 mx-auto text-center rounded-full text-white bg-[#262F68]">BLOG</h2>
-    <h2 className="text-3xl lg:w-60 w-72 lg:mx-0 mx-auto font-audiowide mb-6">News & Updates</h2>
+    <h2 className="text-3xl py-2 w-72 lg:mx-0 mx-auto font-audiowide mb-6">News & Updates</h2>
     <div className="flex lg:flex-row justify-center items-center flex-col gap-6">
-    <div className="flex flex-col justify-center items-center lg:flex-row flex-wrap mt-10 gap-8 lg:gap-6">
+    <div className="flex border-b-2 pb-8 flex-col justify-center items-center lg:flex-row flex-wrap mt-10 gap-8 lg:gap-6">
   {/* Card 1 */}
   <div className="flex flex-col border-r-0 lg:border-r-2 pr-0 lg:pr-6 items-center lg:items-start">
     <img

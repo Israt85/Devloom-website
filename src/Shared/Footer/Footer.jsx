@@ -66,14 +66,14 @@ const Footer = () => {
             <p className="text-white text-xl font-bold pt-20">Newsletter</p>
             <div className="w-16 my-4 h-1 bg-[#FFC310]"></div>
             <p className="text-gray-400 w-[250px]">Information about current events related to our company</p>
-            <div className="flex justify-between my-4">
+            <div className="flex border-b-2 border-[#757575] pb-6 justify-between my-4">
                 <p className="text-lg text-gray-500">support@gmail.com</p>
                 <p className="w-20 flex justify-center items-center rounded-lg mr-4 h-10 bg-[#FFC310]">Sign Up</p>
             </div>
             </div>
            
         </div>
-        <div className="w-full border-t-2 mt-10">
+        <div className="w-full border-t-2 border-[#757575] mt-10">
          <ul className="flex justify-end mx-2 lg:gap-10 text-white mt-4 py-2 gap-4 lg:mr-40">
             <li>Home</li>
             <li>About</li>

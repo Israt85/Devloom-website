@@ -11,6 +11,8 @@ export default {
         Poppins: ['Poppins', 'sans-serif',],
         Arapey: ['Arapey', 'sans-serif',],
         Inter: ['Inter', 'sans-serif',],
+        Archivo: ['Archivo','sans-serif']
+
       },
     },
   },

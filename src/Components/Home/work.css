@@ -1,0 +1,11 @@
+.work{
+    clip-path: polygon(
+      0% 0%,          /* Top-left */
+      100% 0%,         /* Before top-right curve */
+      100% 0%,         /* Top-right curve start */
+      100% 0%,        /* Bottom-right curve end */
+      90% 100%,         /* Before bottom-right curve */
+      0% 100%,         /* Bottom-left */
+      6% 100%          /* Bottom-left curve */
+    );
+}

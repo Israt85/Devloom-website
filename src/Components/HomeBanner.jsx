@@ -4,7 +4,16 @@ import img2 from '../assets/Images/BannerImg2.jpg'
 const HomeBanner = () => {
     return (
       <div>
-        <h2 className='lg:text-7xl text-4xl text-center lg:mx-6 lg:max-w-7xl w-full uppercase my-20 text-[#262F68] font-medium mx-auto font-audiowide'>website that transform 
+        <div className='lg:block hidden'>
+        <svg className='absolute right-0 -mt-10 flex justify-end ' width="50" height="50" viewBox="0 0 44 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.8611 0L27.7656 13.1553L43.7222 18.0232L27.7656 22.8911L21.8611 36.0464L15.9566 22.8911L0 18.0232L15.9566 13.1553L21.8611 0Z" fill="#262F68"/>
+</svg>
+        </div>
+        <h2 className='relative lg:text-7xl text-3xl text-center lg:mx-6 lg:max-w-7xl w-full uppercase my-20 text-[#262F68] font-medium mx-auto font-audiowide'>website that transform 
+        <svg className='h-10 lg:block hidden w-[600px] absolute ' width="44" height="37" viewBox="0 0 44 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.8611 0L27.7656 13.1553L43.7222 18.0232L27.7656 22.8911L21.8611 36.0464L15.9566 22.8911L0 18.0232L15.9566 13.1553L21.8611 0Z" fill="#262F68"/>
+</svg>
+
         your vision</h2>
           <div className='w-full flex md:flex-row flex-col justify-center items-end'>
             <div className='w-[150px] lg:block hidden'>
@@ -36,11 +45,11 @@ const HomeBanner = () => {
         <div className='w-full '>
 
       {/* first part */}
-      <div className='w-60 mx-auto lg:left-0 lg:-mt-96 lg:absolute'>
+      <div className='w-60 mx-auto lg:left-0 lg:-mt-[430px] lg:absolute'>
            <div className='flex'>
            <img className='w-[106px] h-[103px] rounded-full' src={img2} alt="" />
             <div>
-            <svg className='relative' width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='relative ' width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M43.8871 86.2335L46.8937 86.8066L45.1287 96.0949L42.0269 95.5037C41.1169 95.3303 40.3707 94.9954 39.7884 94.4991C39.2054 94.0057 38.8059 93.3797 38.5898 92.6211C38.3701 91.8649 38.3519 91.0045 38.5352 90.04C38.719 89.0725 39.0539 88.2747 39.5397 87.6467C40.0226 87.0181 40.6322 86.5797 41.3685 86.3316C42.1043 86.0865 42.9438 86.0538 43.8871 86.2335ZM45.2597 87.764L43.7315 87.4728C43.024 87.3379 42.4107 87.3589 41.8916 87.5357C41.3718 87.7155 40.9473 88.0371 40.618 88.5007C40.2881 88.9673 40.0534 89.568 39.9138 90.3027C39.7753 91.0314 39.7742 91.6719 39.9105 92.2242C40.0437 92.776 40.3136 93.2269 40.7201 93.5769C41.1266 93.927 41.6685 94.1666 42.3457 94.2956L43.9601 94.6033L45.2597 87.764Z" fill="#170F49"/>
 <path d="M35.7556 83.8577L31.1937 92.1389L26.0054 89.2722L26.5979 88.1966L30.5376 90.3734L31.9276 87.8502L28.2586 85.823L28.8489 84.7515L32.5178 86.7787L33.9145 84.2434L29.9263 82.0398L30.5188 80.9642L35.7556 83.8577Z" fill="#170F49"/>
 <path d="M18.5508 83.4037L22.4557 76.2601L22.3841 76.1817L14.9309 79.4386L13.8913 78.2999L23.1581 74.4276L24.2693 75.6448L19.5904 84.5425L18.5508 83.4037Z" fill="#170F49"/>
@@ -83,13 +92,16 @@ const HomeBanner = () => {
 
             </div>
             </div>
-            <p className='font-Poppins text-xs w-64 px-2 relative text-right'>We are a creative agency that offer web and app solutions. We are a creative agency that            offer web and app solutions.We are a creative agencyy  that offer web and 
+            <p className='font-Poppins text-xs w-60 px-1 relative text-right'>We are a creative agency that offer web and app solutions. We are a creative agency that            offer web and app solutions.We are a creative agencyy  that offer web and 
 app solutions forr you at the pocket    
 friendly rates.</p>
+<div className='h-20'>
 <div className='w-10 h-10 absolute z-10 -mt-16 rounded-2xl flex justify-center items-center bg-[#262F68]'>
+
 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.316059 16.2705C-0.0868534 16.6482 -0.107267 17.281 0.270463 17.6839C0.648193 18.0869 1.28103 18.1073 1.68394 17.7295L0.316059 16.2705ZM17.9995 2.03224C18.0173 1.48024 17.5842 1.01833 17.0322 1.00052L8.03692 0.710348C7.48492 0.692541 7.02301 1.12559 7.0052 1.67759C6.98739 2.22958 7.42044 2.6915 7.97244 2.70931L15.9683 2.96724L15.7103 10.9631C15.6925 11.5151 16.1256 11.977 16.6776 11.9948C17.2296 12.0126 17.6915 11.5796 17.7093 11.0276L17.9995 2.03224ZM1.68394 17.7295L17.6839 2.72954L16.3161 1.27046L0.316059 16.2705L1.68394 17.7295Z" fill="white"/>
 </svg>
+</div>
 
 </div>
            </div>   

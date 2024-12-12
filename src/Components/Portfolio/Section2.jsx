@@ -15,7 +15,7 @@ const Section2 = () => {
             <div className="w-full lg:h-[1100px] bg-[#262F68]" style={{ clipPath: 'url(#custom-shape)', WebkitClipPath: 'url(#custom-shape)' }}>
           
                <h2 className="text-white tracking-widest pt-32 text-center text-2xl w-full lg:w-[500px] mx-auto font-audiowide">MOST COST EFFICIENT & USER FRIENDLY APPS BY DEVLOOM </h2>
-               <div className=" flex lg:flex-row flex-col flex-wrap justify-center items-center w-full xl:w-[1300px] lg:-mt-20 h-auto lg:h-[900px] mx-auto">
+               <div className=" flex lg:flex-row flex-col justify-center items-center w-full xl:w-[1200px] lg:-mt-20 h-auto lg:h-[900px] mx-auto">
                <div className="">
                <div>
                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@ IOS &Andriod</p>
                 </div>
                </div>
                <div className="">
-                <img className="lg:w-[600px] w-full h-full mx-auto lg:-mt-40 xl:-mt-80 md:h-[400px] lg:h-[800px]" src={img1} alt="" />
+                <img className="lg:w-[800px] w-full h-full mx-auto lg:-mt-40 xl:-mt-80 md:h-[400px] lg:h-[800px]" src={img1} alt="" />
                </div>
                <div>
                <div className="flex flex-col justify-end items-end text-right">

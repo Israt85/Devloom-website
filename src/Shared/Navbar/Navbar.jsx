@@ -13,7 +13,7 @@ const Navbar = () => {
     setIsDropdownOpen(false);
   };
     return (
-       <div className="flex justify-center items-center">
+       <div className="flex justify-center text-lg font-Archivo items-center">
 
 <div className="navbar-start lg:hidden block">
       <div className="dropdown">
@@ -68,7 +68,7 @@ const Navbar = () => {
         <NavLink className={({ isActive }) => (isActive ? "text-[#FCCF12] font-bold" : "text-white")} to='/'><li>Home</li></NavLink>
        <NavLink className={({ isActive }) => (isActive ? "text-[#FCCF12] font-bold" : "text-white")} to='/portfolio'> <li>Portfolio</li></NavLink>
         <NavLink className={({ isActive }) => (isActive ? "text-[#FCCF12] font-bold" : "text-white")} to='/contact'><li>Contact</li></NavLink>
-        <NavLink className={({ isActive }) => (isActive ? "text-[#FCCF12] font-bold" : "text-white")} to='/blog'><li>blog</li></NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "text-[#FCCF12] font-bold" : "text-white")} to='/blog'><li>Blog</li></NavLink>
         <li>EN</li>
     </ul>
 </div>
